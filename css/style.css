@@ -210,3 +210,33 @@ footer p a {
     
 } 
 
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px) {
+    
+    /* Desktop Viewport: style rules for header */
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+    }
+    
+    /* Desktop Viewport: style rules for nav area */
+    nav {
+        float: right;
+        width: 70%;
+        margin: 4em 1em 0 0;
+    }
+    
+    nav ul {
+        text-align: right;
+    }
+    
+    nav li {
+        border: none;
+    }
+    
+    nav li a {
+        padding: 0.5em 1em;
+    }
+}
+
